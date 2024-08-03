@@ -14,7 +14,7 @@ def display_images(images, window_names):
     print("Press any key to terminate.")
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-image_path = "image1.jpg" 
+image_path = "image.jpg" 
 image = cv2.imread(image_path)
 if image is None:
     print("Failed to load the image.")
